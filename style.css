@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'tnr';
+    src: URL('times-new-roman.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'amazon-ember';
+    src: URL('Amazon-Ember-Medium.ttf') format('truetype');
+}
+
+html {
+    background-color: black;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    font-size: calc(1.5vw + 1.5vmin);
+    color: white;
+    font-family: 'amazon-ember';
+}
+
+p {
+    font-family: 'tnr';
+    font-size: calc(1vmax + 1vmin);
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+a {
+    font-family: 'amazon-ember';
+    font-size: calc(1.2vmax + 1.2vmin);
+    color: rgb(0, 195, 255);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: rgb(0, 164, 191);
+}
+
+a:active {
+    color: rgb(0, 124, 191);
+}
+
+.header {
+    margin-left: 5vw; 
+    font-size: calc(1.3vw + 1.3vmin);
+    color: white;
+    font-family: 'amazon-ember';
+}
