@@ -49,3 +49,15 @@ a:active {
     color: white;
     font-family: 'amazon-ember';
 }
+
+.large-mg {
+    width: 60vw;
+    height: 80vh;
+}
+
+.sq-mg {
+    width: 50vmin;
+    height: 50vmin;
+    display: block;
+    margin: 0 auto;
+}
