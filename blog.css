@@ -62,20 +62,23 @@ a:active {
     margin: 0 auto;
 }
 
-button {
-    width: 20vw;
-    height: 5vh;
-    background-color: rgb(0, 164, 191);
-    border: solid white 1px;
+  .rndbtn {
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(0, 124, 191);
+    border: none;
     border-radius: 10vw;
-    transition: background-color 0.2s;
+    transition: background-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    box-shadow: 0 calc(0.5vw + 0.5vh) #00b3ff;
   }
   
-  button:hover {
+  .rndbtn:hover {
     cursor: pointer;
-    background-color: rgb(0, 124, 191);
+    background-color: rgb(0, 120, 191);
   }
 
-  button:active {
+  .rndbtn:active {
+    transform: translateY(calc(0.3vw + 0.3vh));
     background-color: rgb(0, 100, 191);
+    box-shadow: 0 calc(0.2vw + 0.2vh) #00b3ff;
   }
