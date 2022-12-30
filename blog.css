@@ -8,22 +8,32 @@
     src: URL('Amazon-Ember-Medium.ttf') format('truetype');
 }
 
-html {
+.dark {
     background-color: black;
+}
+
+.light {
+    background-color: white;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
 }
 
 .title {
     display: block;
     text-align: center;
     font-size: calc(1.5vw + 1.5vmin);
-    color: white;
     font-family: 'amazon-ember';
 }
 
 p {
     font-family: 'tnr';
     font-size: calc(1vmax + 1vmin);
-    color: white;
     margin-left: 5vw;
     margin-right: 5vw;
 }
@@ -46,7 +56,6 @@ a:active {
 .header {
     margin-left: 5vw; 
     font-size: calc(1.3vw + 1.3vmin);
-    color: white;
     font-family: 'amazon-ember';
 }
 
